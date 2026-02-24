@@ -252,6 +252,7 @@ casaluce-track/
 │   ├── grass.png                   # Texture erba (1024x1024)
 │   ├── barrier.png                 # Texture barriera (512x512)
 │   ├── startline.png               # Texture linea di partenza
+│   ├── billboardmaterial.jpg       # Texture struttura billboard
 │   └── reclama_banner.png          # Texture banner pubblicitario
 ├── tools/
 │   └── track_viewer.py             # Viewer 3D per file KN5 (PyQt5 + OpenGL)
@@ -318,7 +319,8 @@ L'exporter KN5 custom (`scripts/export_kn5.py`) gestisce:
 - **UV V-flip** OpenGL -> DirectX: `v = 1 - v` (Blender V=0 in basso, AC V=0 in alto)
 - **Empty AC_** esportati come coppie dummy+mesh (box 24 verts / 36 indices)
 - **Matrice KN5**: `transpose(C * T_blender)` dove C swappa row1<->row2 con segno
-- **Embedding texture** PNG direttamente (senza conversione DDS)
+- **Multi-materiale automatico**: mesh con piu' materiali vengono splittate in sotto-mesh separate, ognuna con la propria texture (es. Billboard con struttura + banner)
+- **Embedding texture** PNG/JPG direttamente (senza conversione DDS)
 - **Calcolo bounding sphere** per ogni mesh
 - **Matching superfici** tramite substring: KEY in `surfaces.ini` cercato nel nome mesh
 
