@@ -1,0 +1,41 @@
+{
+  "camera": {
+    "yaw": 86.7,
+    "pitch": 42.9,
+    "distance": 250.0,
+    "target": [0.0, 0.725, 0.0]
+  },
+  "geometry": {
+    "road_width": 8.0,
+    "kerb_width": 1.0,
+    "kerb_height": 0.08,
+    "grass_width": 2.0,
+    "wall_height": 1.5,
+    "wall_thickness": 1.0,
+    "ground_tile_size": 30.0
+  },
+  "ai_line": {
+    "default_speed": 80.0,
+    "min_corner_speed": 35.0
+  },
+  "surfaces": {
+    "road_friction": 0.97,
+    "kerb_friction": 0.93,
+    "grass_friction": 0.60
+  },
+  "info": {
+    "name": "Kartodromo di Casaluce",
+    "city": "Casaluce",
+    "province": "CE",
+    "region": "Campania",
+    "country": "Italy",
+    "length": "1000",
+    "pitboxes": "5",
+    "direction": "clockwise",
+    "geotags": ["41.0072", "14.1892"],
+    "record": "0:37.974",
+    "record_holder": "Gianluigi",
+    "description": "Kartodromo-Minimotodromo con pista asfaltata di circa 1000 metri, dotata di illuminazione notturna. Adatta a kart, minimoto, supermotard e pitbike. Paddock attrezzato con aria compressa e allacci elettrici, bar coperto e ampio parcheggio.",
+    "facilities": ["night_lighting", "paddock", "compressed_air", "electricity", "bar", "parking"]
+  }
+}
