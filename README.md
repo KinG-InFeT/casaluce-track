@@ -1,11 +1,19 @@
 # Kartodromo di Casaluce
 
-![Version](https://img.shields.io/badge/version-3.0.0-blue)
+[![Version](https://img.shields.io/badge/version-3.1.0-blue)](https://github.com/KinG-InFeT/blender-assetto-corsa-track-generator)
 ![AC](https://img.shields.io/badge/assetto%20corsa-mod-green)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
+[![License](https://img.shields.io/badge/license-Apache%202.0-brightgreen)](LICENSE)
+
+<p align="center">
+  <img src="outline.png" alt="Track outline" width="400">
+</p>
 
 Circuito kart a Casaluce (CE), Campania. ~1000 m, larghezza 6 m, layout CW + reverse CCW.
 Pista asfaltata con illuminazione notturna. Kart, minimoto, supermotard, pitbike.
+
+Layout editor con snap cordoli ai bordi strada e visualizzazione larghezza pista.
+Muri con base Z ancorata al profilo del terreno.
 
 Record: **0:37.974** (Gianluigi)
 

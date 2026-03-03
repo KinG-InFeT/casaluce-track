@@ -3,8 +3,9 @@
 __pycache__/
 *.pyc
 
-# Blender backups
+# Blender backups and meta
 *.blend1
+*.blend.meta
 
 # Generated blend (rebuilt by create_reverse_blend.py)
 casaluce_reverse.blend
